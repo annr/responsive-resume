@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>{Your Name} - résumé</title>
+<link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
+<link rel="stylesheet" type="text/css" media="print" href="print.css" />
+<meta name="viewport" content="width=device-width">
+<SCRIPT>
+	var a = ['section', 'article', 'nav', 'header', 'footer', 'hgroup'];	
+	for (var i = 0, j = a.length; i < j; i++) {
+		document.createElement(a[i]);
+	}	
+	var name = "{accountname}";
+	var address = "{emaildomain.com}";
+	var link = name + '@' + address;
+	function protectmail() {
+		document.write('<a class="email" href=mailto:' + name + '@' + address  + '>' + link + '</a>');
+	}
+</SCRIPT>
+</head>
+<body>	
+<hgroup>
+	<div class="floatLeft">
+		<h1>{Your Name}</h1>
+		<!--<h3 class="topSubheading">Résumé</h3>-->
+	</div>
+	<footer class="contactTop">
+	<ul class="floatRight">
+		<li><script language="JavaScript" type="text/javascript">
+          protectmail();  
+      </script></li>
+		<li><a href="http://htmlhive.com">{http://yourblog.com}</a></li>
+		<li>{Your Town}, {YS}</li>
+		<li><a href="https://twitter.com/{yourtwitter}">@{yourtwitter}</a></li>
+	</ul>
+	</footer>
+</hgroup>
+<div class="wrapper">
+<section class="fixedHeightSection">
+	<h2>Technical Skills</h2>
+	<section class="skillsCol">
+		<h4>Languages / Markup</h4>
+		<ul>
+			<li>JavaScript</li>
+			<li>HTML5 &amp; below</li>
+			<li>CSS3 &amp; below</li>
+			<li>{PHP5}</li>
+			<li>{SQL}</li>
+			<li>{Java}</li>
+			<li>{C#}</li>	
+		</ul>
+	</section>
+	<section class="skillsCol">
+		<h4>Frameworks</h4>
+		<ul>
+			<li>JQuery...</li>		
+		</ul>
+	</section>
+	<section class="skillsCol last">
+		<h4>Toolbox</h4>
+		<ul>
+			<li>Git, GitHub...</li>
+		</ul>
+	</section>		
+</section>
+
+<section>
+<h2>Experience</h2>
+
+<!-- copy and paste this for all of your work experience -->
+<section class="resRow">
+	<div class="date"><h4>{StartMonth Year} - present</h4></div>
+	<div class="col summary">
+	 	<h4>{Your kind of} Engineer</h4>
+		<h5><i><a href="http://example.com/">{Company Name}</a></i>, {Company Town}, {StateAbbr}</h5>
+		<p>{Job description}</p>
+	</div>
+	<div class="col points">
+		  <ul>
+	          <li>{Value added to project #1}</li>
+	          <li>{Value added to project #2}</li>
+	          <li>{Value added to project #3}</li>
+	          <li>{Value added to project #4}</li>
+	     </ul>
+	</div>
+</section>
+<!-- end example work experience section -->
+</section>
+ 	
+<section>
+<h2>Education</h2>
+<section class="resRow">
+	<div class="date floatRight wideDate"><h4>Graduated {GraduationMonth} {GraduationYear}</h4></div>
+	<div class="wideSummary">
+	 	<h3>{YourSchool}</h3>
+		<h5>{YourDegree}</h5>
+	</div>
+</section>
+
+</section>
+
+<section>
+<h2>Certificates / Exams</h2>
+
+<section class="resRow">
+<ul class="stars">
+ 		<li>{Your Certificate #1}</li>
+ 		<li>{Your Certificate #2}</li>
+ </ul>
+</section>
+
+</section>		
+
+
+</section>
+</div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  <script>
+
+    
+    $(document).ready(function() {
+		ss = document.styleSheets;
+		for(i=0; i<ss.length; i++)
+		 {
+		 for(j=0; j<ss[i].cssRules.length; j++)
+		  {
+		  //dump( ss[i].cssRules[j].selectorText + "\n" );
+		  console.log(ss[i].cssRules[j].selectorText + "\n" );
+		  }
+		 }
+ 
+    });
+  </script>
+  
+</body>
+</html>
+
+
+
+
+
