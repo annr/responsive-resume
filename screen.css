@@ -20,7 +20,7 @@ li{list-style:none;}
  src: url('./f/GraublauWeb.ttf') format("truetype");
 }
 body {padding: 20px 10px;}
-h1{font-family:YanoneKaffeesatz-Bold, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;font-weight:400;padding-top:16px;font-size:5.0em;color:#57b32e;margin-bottom:2px; text-shadow: 1px 1px 1px #0c480e; margin-bottom: 20px;}
+h1{font-family:YanoneKaffeesatz-Bold, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;font-weight:400;padding-top:16px;font-size:5.0em;color:#9d73a4;margin-bottom:2px; text-shadow: 1px 1px 1px #0c480e; margin-bottom: 20px;}
 h3.topSubheading{font-weight:normal;font-size: 0.8.em;margin:0;padding:0;color:#725a37;}
 h3{font-size:1.4em;}
 h4{font-size:1.3em; margin-bottom: 16px;}
@@ -30,8 +30,8 @@ h6{font-size:.9em}
 hgroup{display:block;}
 footer.contactTop ul{text-align:right;list-style-type:none;margin-right:18px;color:#4d3619}
 footer.contactTop ul{text-align:right;list-style-type:none;margin-right:18px}
-body{ font-family:GraublauWeb, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;background:url('./i/background.png')}
-a{color:#663399; text-decoration: none;}
+body{ font-family:GraublauWeb, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;background:url('./i/background-gray.png')}
+a{color:#7f3b83; text-decoration: none;}
 a:hover{text-decoration: underline;}
 .floatRight{float:right}
 .wrapper,hgroup{width:90%;margin:0 auto}
